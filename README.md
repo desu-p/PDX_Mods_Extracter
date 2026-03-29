@@ -20,6 +20,6 @@ If you attempt to use this with older titles or encounter any pathing issues/bug
 
 1. Place the script in your "mod" folder (or where you keep your downloaded archives).
 
-2. Run MasterOfMods.ps1.
+2. Run PDX_Mods_Exctractor.ps1.
 
 3. Enjoy your perfectly organized mod list.
