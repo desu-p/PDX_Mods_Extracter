@@ -14,7 +14,7 @@ Clean Workflow: Moves processed archives to a backup folder to keep your workspa
 ⚠️ Compatibility Note:
 Currently, the script is fully optimized for games using the modern Paradox mod structure (like Crusader Kings III).
 
-If you attempt to use this with older titles or encounter any pathing issues/bugs, please report me on my Discord (@desup_18779). I am looking to expand support based on your feedback!
+If you attempt to use this with older titles or encounter any pathing issues/bugs, please report me on my Discord (@desup_18779) or Issues tab on this repo. I am looking to expand support based on your feedback!
 
 🛠️ How to use:
 
