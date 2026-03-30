@@ -25,3 +25,4 @@ If you attempt to use this with older titles or encounter any pathing issues/bug
 3. Enjoy your perfectly organized mod list.
 
 Note: Currently, script working only with PowerShell, I working on Bash version
+Note 2: If you're thinking that there's can be viruses, you can check this.ps1 file with Notepad 
