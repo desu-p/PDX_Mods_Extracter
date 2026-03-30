@@ -23,3 +23,5 @@ If you attempt to use this with older titles or encounter any pathing issues/bug
 2. Run PDX_Mods_Exctractor.ps1.
 
 3. Enjoy your perfectly organized mod list.
+
+Note: Currently, script working only with PowerShell, I working on Bash version
