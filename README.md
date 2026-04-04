@@ -20,8 +20,6 @@ If you attempt to use this with older titles or encounter any pathing issues/bug
 
 1. Place the script in your "mod" folder (or where you keep your downloaded archives).
 
-2. Run PDX_Mods_Exctractor.ps1.
+2. Run PDX_Mods_Exctractor.ps1 or it's .sh version with PowerShell/Bash.
 
-3. Enjoy your perfectly organized mod list.
-
-Note: If you're thinking that there's can be viruses, you can check this .ps1/.sh file with Notepad 
+3. Enjoy your perfectly organized mod list!
