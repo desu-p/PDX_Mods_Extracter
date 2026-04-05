@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# pdx_mods_extractor.sh - anime girl bash edition v1.5.2 (｡♥‿♥｡)
+# pdx_mods_extractor.sh - anime girl bash edition v1.3 (｡♥‿♥｡)
 # mascot: a hardworking fanloid girl who learned bash just for you!
 
 # check if unzip is installed, cuz i'm not a magician (╥﹏╥)

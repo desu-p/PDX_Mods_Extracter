@@ -1,4 +1,4 @@
-# pdx_mods_extractor.ps1 - anime girl edition v1.5.2 (Turbo Stealth Mode!) (｡♥‿♥｡)
+# pdx_mods_extractor.ps1 - anime girl edition v1.3 (Turbo Stealth Mode!) (｡♥‿♥｡)
 # mascot: a hardworking fanloid girl who learned to be quiet and fast for you!
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 
@@ -76,7 +76,7 @@ try {
         } else {
             $zipArchive.Dispose()
             # if it's broken, we cry a little and skip 
-            Write-Host "`ruwaa! skipping $($zip.Name) cuz no descriptor.mod found... (´-ω-`)".PadRight(100) -ForegroundColor Yellow
+            Write-Host "`ruwaa! skipping $($zip.Name) cuz no descriptor.mod found... sorry that i'm so stupid and cant do it... it's to hard for my little heartu-desu... (´-ω-`)".PadRight(100) -ForegroundColor Yellow
         }
     }
 
