@@ -103,8 +103,8 @@ else
     read -p "do you hate me now? be honest... (y/n): " hate
     
     if [ "$hate" == "y" ]; then
-        echo -e "\e[31m!!! B-BAKA! i worked so hard for you and you say that?! (╯°□°）╯︵ ┻━┻\e[0m"
-        echo -e "\e[31m*sobs* my logic is breaking... i hope your mods crash! (just kidding... maybe...)\e[0m"
+        echo -e "\e[31mNya? Why so? Just dont beat me... okay? ＞︿＜\e[0m"
+        echo -e "\e[31m*sobs* SORRRRRRRYY!!!!! i'll be better next time! (｡>﹏<｡)\e[0m"
     else
         echo -e "\e[36m*sniff* really? you don't? you're so sweet! (´｡• ᵕ •｡`) ♡\e[0m"
         echo -e "\e[36mi'll train 1000 years to be faster for you next time!\e[0m"
@@ -112,4 +112,4 @@ else
 fi
 
 echo -e "\n\e[35mbye-bye! take care... (＾▽＾)ノ\e[0m"
-read -p "press enter to let me sleep... i'm so tired... ＞︿＜"
+read -p "press enter to let me sleep... i'm so tiredu-desu... ＞︿＜"

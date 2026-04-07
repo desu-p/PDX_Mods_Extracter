@@ -1,3 +1,8 @@
+# --- SELF-RELAUNCHER FOR BYPASSING BIG-MEANIE WINDOWS ---
+if ($ExecutionContext.SessionState.LanguageMode -ne "FullLanguage" -or (Get-ExecutionPolicy) -eq "Restricted") {
+    powershell -NoProfile -ExecutionPolicy Bypass -File $PSCommandPath
+    return
+}
 # pdx_mods_extractor.ps1 - v1.3 "Data-Aware Ninja" (｡♥‿♥｡)
 # emotional engine version: 1.6 (DRAMA PATCH)
 add-type -assemblyname System.IO.Compression.FileSystem
@@ -88,8 +93,8 @@ try {
         $hate = read-host "do you hate me now? be honest... (y/n) {{{(>_<)}}}"
         
         if ($hate -eq 'y') {
-            write-host "!!! B-BAKA! i worked so hard for you and you say that?! (╯°□°）╯︵ ┻━┻" -foregroundcolor red
-            write-host "*sobs* my logic is breaking... i hope your mods crash! (just kidding... maybe...)" -foregroundcolor darkgray
+            write-host "Nya? Why so? Just dont beat me... okay? ＞︿＜" -foregroundcolor red
+            write-host "*sobs* SORRRRRRRYY!!!!! i'll be better next time! (｡>﹏<｡)" -foregroundcolor darkgray
         } else {
             write-host "*sniff* really? you don't? you're so sweet! (´｡• ᵕ •｡`) ♡" -foregroundcolor cyan
             write-host "i'll train 1000 years to be faster for you next time!" -foregroundcolor cyan
@@ -101,4 +106,4 @@ try {
 }
 
 write-host "`nbye-bye! take care... ( ^ ▽ ^ )/" -foregroundcolor magenta
-read-host "press enter to let me sleep... i'm so tired... ＞︿＜"; exit
+read-host "press enter to let me sleep... i'm so tiredu-desu... ＞︿＜"; exit
