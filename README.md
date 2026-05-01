@@ -3,7 +3,7 @@
 a simple, fast, and slightly emotional powershell script to extract your paradox interactive mods (CK3, HOI4, EU5, etc.) without the launcher's gibberish folder names.
 
 ### why use me? (・_・;)
-* **no more ugc_12345:** i rename folders to the actual mod names so you can actually find them.
+* **no more baka_4737636363612345:** i rename folders to the actual mod names so you can actually find them.
 * **legacy support:** i fix the `path` variable and encoding so older games don't cry.
 * **ultra fast:** i use .net methods to unpack big mods like *invictus* in seconds.
 * **i have feelings:** i might get sad if i'm too slow, or happy if you star me. (｡•́︿•̀｡)
