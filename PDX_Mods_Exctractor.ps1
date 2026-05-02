@@ -3,8 +3,8 @@ if ($ExecutionContext.SessionState.LanguageMode -ne "FullLanguage" -or (Get-Exec
     powershell -NoProfile -ExecutionPolicy Bypass -File $PSCommandPath
     return
 }
-# pdx_mods_extractor.ps1 - v1.3 "Data-Aware Ninja" (｡♥‿♥｡)
-# emotional engine version: 1.6 (DRAMA PATCH)
+# pdx_mods_extractor.ps1 - v1.4.1 "optimazation ninja" (｡♥‿♥｡)
+# emotional engine version: 1.6.1
 add-type -assemblyname System.IO.Compression.FileSystem
 
 try {
@@ -25,7 +25,7 @@ try {
     $processedSizeBytes = 0
     $totalUnpackTime = 0
 
-    write-host "starting v1.3 turbo extraction... [Total: $([Math]::Round($totalSizeBytes / 1MB, 2)) MB]" -foregroundcolor cyan
+    write-host "starting v1.4.1 super-duper-turbo-ultra extraction... [Total: $([Math]::Round($totalSizeBytes / 1MB, 2)) MB]" -foregroundcolor cyan
     write-host "i'll be a quiet shadow while you eat... ( ˘▽˘)っ♨`n" -foregroundcolor darkgray
 
     foreach ($zip in $zipFiles) {
@@ -76,7 +76,7 @@ try {
     write-host "--- MISSION COMPLETE! total time: $($totalUnpackTime)s ---" -foregroundcolor magenta
     write-host "========================================`n" -foregroundcolor magenta
 
-    # --- EMOTIONAL ENGINE v1.6 (DRAMA EDITION) ---
+    # --- EMOTIONAL ENGINE v1.6.1
     if ($totalUnpackTime -le ($zipFiles.Count * 10)) {
         write-host "K-KAWAII!! i was like a lightning bolt today right?! (๑˃ᴗ˂)ﻭ" -foregroundcolor cyan
         $choice = read-host "will you star me on GitHub? my heart is racing! (y/n/s - already starred) (^///^)"
@@ -103,7 +103,7 @@ try {
     }
 
 } catch {
-    write-host "`nmy logic is melting... i failed you... $_ (╥﹏╥)" -foregroundcolor red
+    write-host "`nmy logic is melting... i failed you.... sorry... $_ (╥﹏╥)" -foregroundcolor red
 }
 
 write-host "`nbye-bye! take care... ( ^ ▽ ^ )/" -foregroundcolor magenta
